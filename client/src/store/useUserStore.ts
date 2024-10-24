@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { LoginInputState, SignupInputState } from "@/schema/userSchema";
 
 
-const API_END_POINT = "http://localhost:8000/api/v1/users";
+const API_END_POINT = "https://food_app_nvd.onrender.com/api/v1/users";
 axios.defaults.withCredentials = true;
 
 type User = {
