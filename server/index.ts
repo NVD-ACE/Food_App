@@ -35,7 +35,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "https://food_app_nvd.onrender.com",
+  origin: "https://food-app-nvd.onrender.com",
   credentials: true,
 };
 
