@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-const API_END_POINT = "https://food_app_nvd.onrender.com/api/v1/restaurants";
+const API_END_POINT = "https://food-app-nvd.onrender.com/api/v1/restaurants";
 axios.defaults.withCredentials = true;
 
 export const useRestaurantStore = create<RestaurantState>()(
